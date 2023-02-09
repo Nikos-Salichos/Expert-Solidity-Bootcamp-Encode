@@ -5,7 +5,7 @@ Additionally, client diversity encourages competition and innovation, as differe
 Having a diverse client landscape also helps to ensure that the Ethereum network remains decentralized, with no single entity having too much control over the network. This is important for maintaining the trust and confidence of the Ethereum community, and for ensuring that the network remains transparent and fair for all participants.
 In summary, client diversity is an essential component of a robust and secure blockchain network, and it is critical for the continued success and growth of Ethereum.
 
-2) 
+2) What information is held for an Ethereum account?
 
 Balance: The amount of Ether (ETH) that the account holds.
 Nonce: A counter that keeps track of the number of transactions made by the account. It is used to prevent replay attacks, where a transaction is repeated multiple times.
@@ -13,7 +13,7 @@ Contract Code: If the account is a contract account, it will also contain the co
 Storage: Contract accounts may also have associated storage, which holds data that is required for the execution of the contract.
 Key Pairs: An Ethereum account is associated with a public-private key pair, which is used to sign transactions and prove ownership of the account. The private key must be kept secure and should not be shared with others, as it is used to control access to the account and its associated assets.
 
-3) 
+3) Where is the full ethereum state held?
 
 The full Ethereum state, which includes the current state of all accounts, contracts, and storage on the network, is held by each node in the Ethereum network. Every node in the network maintains a copy of the Ethereum blockchain, which contains a record of all transactions that have taken place on the network. From this, each node is able to calculate and maintain its own version of the current Ethereum state.
 The state is stored in a data structure known as a Merkle Patricia Trie, which is a type of data structure that is well-suited to storing large amounts of data in a compact and efficient manner. The trie is constructed from hashes of the data stored in the Ethereum blockchain, and it allows for fast and efficient lookups of the current state of any particular account or contract.
