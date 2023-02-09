@@ -4,7 +4,6 @@ pragma solidity ^0.8.10;
 
 contract DynamicArrayItemsRemover {
 
-    // Bootstrap the example array
     uint[] array = [0,1,2,3,4,5,6,7,8,9,10,11];
 
     function removeItems(uint index) external returns(uint[] memory) {
